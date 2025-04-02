@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+.score-board{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid blue;
+}
+.board{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.cell{
+    border: 1px solid black;
+}
+form{
+    display: none;
+}
